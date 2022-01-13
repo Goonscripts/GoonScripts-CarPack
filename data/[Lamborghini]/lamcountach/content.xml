@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_lamcountachus:/data/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/data/vehiclelayouts.meta</filename>
+      <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/data/carvariations.meta</filename>
+      <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/%PLATFORM%/vehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/%PLATFORM%/vehiclemods/lamcountach_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/%PLATFORM%/audio/lamcountach_game.dat</filename>
+      <fileType>AUDIO_GAMEDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/%PLATFORM%/audio/lamcountach_sounds.dat</filename>
+      <fileType>AUDIO_SOUNDDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_lamcountachus:/%PLATFORM%/audio/sfx/dlc_lamcountach</filename>
+      <fileType>AUDIO_WAVEPACK</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+    <Item>
+      <changeSetName>lamcountachus_AUTOGEN</changeSetName>
+      <filesToDisable />
+      <filesToEnable>
+        <Item>dlc_lamcountachus:/data/handling.meta</Item>
+        <Item>dlc_lamcountachus:/data/vehicles.meta</Item>
+        <Item>dlc_lamcountachus:/data/carcols.meta</Item>
+        <Item>dlc_lamcountachus:/data/vehiclelayouts.meta</Item>
+        <Item>dlc_lamcountachus:/data/carvariations.meta</Item>
+        <Item>dlc_lamcountachus:/data/dlctext.meta</Item>    
+        <Item>dlc_lamcountachus:/%PLATFORM%/vehicles.rpf</Item>
+        <Item>dlc_lamcountachus:/%PLATFORM%/vehiclemods/lamcountach_mods.rpf</Item>
+        <Item>dlc_lamcountachus:/%PLATFORM%/audio/lamcountach_game.dat</Item>
+        <Item>dlc_lamcountachus:/%PLATFORM%/audio/lamcountach_sounds.dat</Item>
+        <Item>dlc_lamcountachus:/%PLATFORM%/audio/sfx/dlc_lamcountach</Item>
+      </filesToEnable>
+      <txdToLoad />
+      <txdToUnload />
+      <residentResources />
+      <unregisterResources />
+    </Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
