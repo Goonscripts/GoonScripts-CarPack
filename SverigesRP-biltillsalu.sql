@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `vehicles` (
   PRIMARY KEY (`model`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
--- Dumpar data för tabell essentialmode.vehicles: ~108 rows (ungefär)
+-- Dumpar data för tabell essentialmode.vehicles: ~104 rows (ungefär)
 /*!40000 ALTER TABLE `vehicles` DISABLE KEYS */;
 INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('2018 Ford F-350 Dually', '18f350ds', 400000, 'ford'),
@@ -43,13 +43,12 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('1994 Volvo 850 T5', '850sw', 35000, 'volvo'),
 	('Porsche 911 (993) RWB Rotana 1993', '911rwb', 450000, 'porsche'),
 	('940 FK', '940fk', 30000, 'volvo'),
-	('RX7', 'RX7TUNABLE', 350000, 'mazda'),
 	('2019 Audi A6 55 TFSI Quattro S-Line', 'a6tfsi', 300000, 'audi'),
 	('Toyota Supra RZ MK4 97', 'a80', 400000, 'toyota'),
 	('Toyota Supra A90 Pandem MK5', 'a90pit', 800000, 'toyota'),
 	('AMG GTR', 'amggtr', 350000, 'mercedes'),
-	('Aston martin one-77', 'aone', 600000, 'astonmartin'),
-	('Aston cooper', 'austminlhd', 35600, 'astonmartin'),
+	('Aston martin one-77', 'aone', 600000, 'am'),
+	('Aston cooper', 'austminlhd', 35600, 'am'),
 	('1969 Ford Mustang Boss 429', 'boss429', 300000, 'ford'),
 	('Brabus 700 4.0 (6x6)', 'brabus700', 200000, 'mercedes'),
 	('2021 Ford bronco', 'bronco2021', 275000, 'ford'),
@@ -69,7 +68,6 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('Mercedes Benz AMG S65 2018', 'evcs65', 500000, 'mercedes'),
 	('EVO10', 'evo10', 400000, 'mitsubishi'),
 	('2018 Ferrari 812 Superfast', 'f812', 1500000, 'ferrari'),
-	('2020 Ferrari F8 Tributo', 'f8t', 1000000, 'ferrari'),
 	('2015 Ferrari California T', 'fct', 1000000, 'ferrari'),
 	('Toyota Sprinter Trueno AE86', 'fireae86', 500000, 'toyota'),
 	('bärgnings bil', 'flatbed', 30000, 'lastbilar'),
@@ -87,11 +85,9 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('2021 Toyota Land Cruiser', 'lc300gr', 200000, 'toyota'),
 	('2014 Lamborghini Huracan LP610-4', 'lp610', 800000, 'lamborghini'),
 	('2007 Lamborghini Murcielago LP640', 'lp640', 900000, 'lamborghini'),
-	('BMW M3 E46 GTR', 'm3e46', 350000, 'bmw'),
 	('BMW 4-Series Coupe Concept ', 'm4', 350000, 'bmw'),
 	('BMW M5 E60', 'm5e60', 750000, 'bmw'),
-	('BMW M6 F13', 'm6f13', 700000, 'bmw'),
-	('McLaren 720s 2018', 'm720', 700000, 'mcLaren'),
+	('McLaren 720s 2018', 'm720', 700000, 'mclaren'),
 	('2021 Ford mustang mach1', 'mach1', 250000, 'ford'),
 	('2021 Mustang machE', 'mache', 350000, 'ford'),
 	('Mercury Marquis', 'marquis71', 50000, 'mercury'),
@@ -100,7 +96,7 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('[DTD] 2018 Mercedes-Benz X-Class', 'mercxclass', 350000, 'mercedes'),
 	('Mercedes S63 AMG Cabriolet', 'mers63c', 350000, 'mercedes'),
 	('Ferrari Enzo & Gemballa MIG-U1', 'mig', 900000, 'ferrari'),
-	('McLaren MP4-12C Coupe 2011', 'mmp4', 675000, 'mcLaren'),
+	('McLaren MP4-12C Coupe 2011', 'mmp4', 675000, 'mclaren'),
 	('Porsche Panamera 2017', 'palameila', 300000, 'porsche'),
 	('2020 Toyota Supra A90', 'pandema90', 600000, 'toyota'),
 	('2019 Porsche Macan Turbo', 'pm19', 450000, 'porsche'),
@@ -112,6 +108,7 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('Audi RS3 Sportback 2018', 'rs318', 500000, 'audi'),
 	('Rs3 LMS', 'rs3lms', 400000, 'audi'),
 	('Porsche 911 87', 'rufyb', 400000, 'porsche'),
+	('RX7', 'rx7tunable', 350000, 'mazda'),
 	('Mercedes S500 W222', 's500w222', 5000000, 'mercedes'),
 	('Mercedes-Benz S600 W220', 's600w220', 15000000, 'mercedes'),
 	('2015 Volvo s60 Polestar', 's60pole', 300000, 'volvo'),
@@ -125,7 +122,6 @@ INSERT INTO `vehicles` (`name`, `model`, `price`, `category`) VALUES
 	('2008 WRX STi', 'subisti08', 600000, 'subaru'),
 	('WRX', 'subwrx', 600000, 'subaru'),
 	('2014 Range Rover Sport SVR 5.0 V8', 'svr14', 200000, 'ranger'),
-	('1970 Mustang boss 302', 'svt302', 200000, 'ford'),
 	('Tahoe', 'tahoe', 400000, 'chevrolet'),
 	('Porsche Taycan 2020', 'taycan', 700000, 'porsche'),
 	('Porsche Panamera Techart', 'techart17', 600000, 'porsche'),
@@ -146,10 +142,10 @@ CREATE TABLE IF NOT EXISTS `vehicle_categories` (
   PRIMARY KEY (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
--- Dumpar data för tabell essentialmode.vehicle_categories: ~21 rows (ungefär)
+-- Dumpar data för tabell essentialmode.vehicle_categories: ~27 rows (ungefär)
 /*!40000 ALTER TABLE `vehicle_categories` DISABLE KEYS */;
 INSERT INTO `vehicle_categories` (`name`, `label`) VALUES
-	('astonmartin', 'Aston Martin'),
+	('am', 'Aston Martin'),
 	('audi', 'Audi'),
 	('bmw', 'Bmw'),
 	('cadillac', 'Cadillac'),
