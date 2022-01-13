@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData> 
+
+
+
+
+
+
+
+
+
+
+    <Item>
+      <modelName>marquis71</modelName>
+      <colors>        
+	  <Item>
+          <indices content="char_array"> <!-- Ginger Bronze Metallic -->
+            97
+            97
+            90
+            97
+			94
+			94
+          </indices>
+        </Item>
+	  <Item>
+          <indices content="char_array"> <!-- History Onyx Black -->
+            0
+            0
+            0
+			0
+			1
+            1
+          </indices>
+        </Item>   
+		<Item>
+          <indices content="char_array"> <!-- Ivy Bronze Metallic -->
+            50
+            50
+            55
+			50
+			1
+            1
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Light Gold -->
+            106
+            105
+            37
+			106
+			106
+            106
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Bright Blue Metallic -->
+            73
+            62
+            4
+			73
+			73
+            73
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Medium Brown Metallic -->
+            104
+            104
+            37
+			104
+			90
+            90
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Red / Black -->
+            27
+            1
+            4
+			24
+			1
+            1
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Red / White -->
+            27
+            107
+            4
+			24
+			107
+            107
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Light Gold / Black-->
+            106
+            105
+            37
+			106
+			1
+            1
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Medium Brown Metallic / black -->
+            104
+            104
+            37
+			104
+			1
+            1
+          </indices>
+        </Item>
+		  </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+	  <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="499" />
+      <sirenSettings value="0" />
+    </Item>
+
+
+
+
+
+
+
+
+
+
+  </variationData>
+</CVehicleModelInfoVariation>
