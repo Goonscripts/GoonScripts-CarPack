@@ -11,11 +11,11 @@
       <vecInertiaMultiplier x="1.3" y="1.3" z="1.85" />
       <fDriveBiasFront value="0" />
       <nInitialDriveGears value="3" />
-      <fInitialDriveForce value="0.14" />
-      <fDriveInertia value="0.8" />
+      <fInitialDriveForce value="0.2" />
+      <fDriveInertia value="0.92" />
       <fClutchChangeRateScaleUpShift value="3" />	<!-- Cadillac V-8 472 --> 
       <fClutchChangeRateScaleDownShift value="3" />
-      <fInitialDriveMaxFlatVel value="138" />
+      <fInitialDriveMaxFlatVel value="196" />
       <fBrakeForce value="0.2" />
       <fBrakeBiasFront value="0.6" />
       <fHandBrakeForce value="0.8" />
