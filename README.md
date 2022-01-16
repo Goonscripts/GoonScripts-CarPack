@@ -23,7 +23,7 @@ Audi R8 2020                                          Top Speed: 330 kmh - Real 
 
 Audi RS3 LMS                                          Top Speed: 265 kmh - Real Speed: 265 kmh
 
-Audi RS5-R ABT                                        Top Speed: 280 kmh - Real Speed: 280 kmh
+Audi RS5-R ABT                                        Top Speed: 250 kmh - Real Speed: 280 kmh
 
 Audi RS6 C8                                           Top Speed: 306 kmh - Real Speed: 306 kmh
 
