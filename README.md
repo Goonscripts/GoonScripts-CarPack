@@ -62,6 +62,17 @@ Cadillac:
 -----
 
 2010 Cadillac CTS Sport Wagon                         Top Speed: 250 kmh - Real Speed: 250 kmh
+
 1975 Cadillac Coupe Deville                           Top Speed: 194 kmh - Real Speed: 196 kmh
+
 1959 Cadillac Eldorado Biarritz Convertible           Top Speed: 205 kmh - Real Speed: 209 kmh
+
 2002 Cadillac Escalade ESV                            Top Speed: 233 kmh - Real Speed: 258 kmh
+
+-----
+
+[Chevrolet]
+
+-----
+
+1990 Chevrolet Camaro Z28 IROC-Z                      Top Speed: 240 kmh - Real Speed: 235 kmh
