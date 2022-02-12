@@ -2,16 +2,6 @@
 
 <CHandlingDataMgr>
   <HandlingData>
-
-
-
-
-
-
-
-
-
-
     <Item type="CHandlingData">
       <handlingName>PRUF</handlingName>
       <fMass value="1400.000000" />
@@ -21,7 +11,7 @@
       <vecInertiaMultiplier x="1.200000" y="1.500000" z="1.600000" />
       <fDriveBiasFront value="0.000000" />
       <nInitialDriveGears value="5" />
-      <fInitialDriveForce value="0.500000" />
+      <fInitialDriveForce value="1.500000" />
       <fDriveInertia value="5.000000" />
       <fClutchChangeRateScaleUpShift value="2.200000" />
       <fClutchChangeRateScaleDownShift value="2.200000" />

@@ -2,16 +2,6 @@
 
 <CHandlingDataMgr>
   <HandlingData>
-
-
-
-
-
-
-
-
-
-
     <Item type="CHandlingData">
       <handlingName>FMGT</handlingName>
       <fMass value="1650.000000" />
@@ -21,11 +11,11 @@
       <vecInertiaMultiplier x="1.000000" y="1.400000" z="1.800000" />
       <fDriveBiasFront value="0.000000" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.300000" />
-      <fDriveInertia value="0.500000" />
-      <fClutchChangeRateScaleUpShift value="1.100000" />
-      <fClutchChangeRateScaleDownShift value="1.100000" />
-      <fInitialDriveMaxFlatVel value="100.000000" />
+      <fInitialDriveForce value="0.500000" />
+      <fDriveInertia value="1.000000" />
+      <fClutchChangeRateScaleUpShift value="2.000000" />
+      <fClutchChangeRateScaleDownShift value="2.000000" />
+      <fInitialDriveMaxFlatVel value="250.000000" />
       <fBrakeForce value="1.500000" />
       <fBrakeBiasFront value="0.525000" />
       <fHandBrakeForce value="1.300000" />
