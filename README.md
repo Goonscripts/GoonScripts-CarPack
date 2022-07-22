@@ -1,5 +1,6 @@
 # GoonScripts-CarPack
 
+Discord Link: https://discord.gg/xSeaDFtFr6
 
 Put this in your Server.cfg
 
